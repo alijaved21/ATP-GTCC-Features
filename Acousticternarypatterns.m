@@ -1,4 +1,4 @@
-% local ternary paterns implementation 
+% Acoustic ternary paterns implementation 
 %  function [ltp_full]=LTP_speech(x,thresh)
 % x(t) is the signal (audio signal) in digitized form
 folder = fullfile('Please put the link of folder containing audio samples');
@@ -7,7 +7,7 @@ while hasdata(ADS)
     x=read(ADS);
 sname='Sheet1';
 startingColumn='A';
-filename = 'Please put the link of excel file where you want to save the LTP features';
+filename = 'Please put the link of excel file where you want to save the ATP features';
 nextRow=1;
 % if P=8, it means 8 neighbours and 1 reference sample. total frame size
 % will be 9 in this case
